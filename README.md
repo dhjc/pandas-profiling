@@ -2,8 +2,11 @@
 Forked from original to work offline in a linux environment.  The following files need to stored in /var/cdn_local/ for this to work.
 
 [JQuery](https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js)
+
 [Bootstrap CSS](https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css)
+
 [Bootstrap-theme](https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css)
+
 [Bootstrap JS](https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js)
 
 
@@ -27,17 +30,7 @@ For each column the following statistics - if relevant for the column type - are
 
 ## Installation
 
-### Using pip
-
-You can install using the pip package manager by running
-
-    pip install pandas-profiling
-    
-### Using conda
-
-You can install using the conda package manager by running
-
-    conda install pandas-profiling
+Unlike the orginal version from which this was forked, this can only be installed from source.
 
 ### From source
 
@@ -96,7 +89,6 @@ A set of options are available in order to adapt the report generated.
 
 ## Dependencies
 
-* **An internet connection.** Pandas-profiling requires an internet connection to download the Bootstrap and JQuery libraries. I might change this in the future, let me know if you want that sooner than later.
 * python (>= 2.7)
 * pandas (>=0.19)
 * matplotlib  (>=1.4)
