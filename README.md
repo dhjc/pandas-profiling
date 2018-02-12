@@ -1,3 +1,13 @@
+# pandas-profiling offline
+Forked from original to work offline in a linux environment.  The following files need to stored in /var/cdn_local/ for this to work.
+
+[JQuery](https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js)
+[Bootstrap CSS](https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css)
+[Bootstrap-theme](https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css)
+[Bootstrap JS](https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js)
+
+
+
 # pandas-profiling 
 
 Generates profile reports from a pandas `DataFrame`. The pandas `df.describe()` function is great but a little basic for serious exploratory data analysis.
