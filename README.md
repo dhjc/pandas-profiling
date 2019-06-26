@@ -1,4 +1,6 @@
-# pandas-profiling offline
+# pandas-profiling offline - use [pandas-profiling](https://github.com/pandas-profiling/pandas-profiling/)
+## This fork was created to add an offline mode.  Pandas-profiling now supports offline mode anyway.
+
 Forked from original to work offline in a linux environment.  The following files need to stored in /var/cdn_local/ for this to work.
 
 [JQuery](https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js)
